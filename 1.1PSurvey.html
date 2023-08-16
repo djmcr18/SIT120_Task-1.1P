@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Task 1</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Style here -->
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        tr,
+        th,
+        td {
+            padding: 20px;
+            border: 4px solid black;
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Task 1.1P Survery Form!</h1>
+
+    <form class="formstyle">
+        <div>
+            <fieldset>
+                <label for="name">Name: </label>
+                <input type="text" name="name">
+                <br>
+                <label for="surname">Surname: </label>
+                <input type="text" surname="surname">
+                <br>
+
+                <div>
+
+                    <label for="name">Age: </label>
+                <input type="text" name="name">
+
+                <br>
+                <label for="name">Phone Number: </label>
+                <input type="number" name ="name">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <label>Please select an option:</label>
+                <select>
+                    <option selected disabled>Select an option</option>
+                    <option>First option</option>
+                    <option>Second option</option>
+
+                    <option>Third option</option>
+
+                    <option>Last option</option>
+
+                </select>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <h2>Please check all the boxes relevant:</h2>
+                <label><input type="checkbox" name="game">First Option</label>
+                <br>
+                <label><input type="checkbox" name="game">Second Option</label>
+                <br>
+                <label><input type="checkbox" name="game">Third Option</label>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <h2>Please select one option:</h2>
+                <label><input type="radio" name="game">First Option</label>
+                <br>
+                <label><input type="radio" name="game">Second Option</label>
+                <br>
+                <label><input type="radio" name="game">Third Option</label>
+            </fieldset>
+        </div>
+
+        <div class="comment-container">
+            <fieldset>
+                <textarea cols="40" rows="18">Please provide your comments</textarea>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/640px-Roasted_coffee_beans.jpg" alt="Comment Image" class="comment-image">
+            </fieldset>
+        </div>
+
+        <div>
+            Pick a Date: <input type="date" name="date" value="" />
+        </div>
+
+        <div>
+            <input class="submitbuttonstyle" type="submit" onclick="alert('Hello')" value="submit"/>
+        </div>
+        <!-- Add more inputs for Surname -->
+
+        <div>
+            <table>
+                <!-- Todo Give inline css to this caption -->
+                <caption style="font-size: 40px; font-weight: bold; color: purple;">Table</caption>
+                <tr>
+                    <th colspan="2">Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                </tr>
+        
+                <tr>
+                    <td rowspan="2">Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                </tr>
+        
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </form>
+</body>
+</html>
